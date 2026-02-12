@@ -4,7 +4,7 @@ from fastapi.responses import JSONResponse
 
 
 
-#import the model
+#loading the model
 with open("model/model.pkl", "rb") as f:
     model = pickle.load(f)
  
